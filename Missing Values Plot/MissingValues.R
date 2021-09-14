@@ -9,7 +9,7 @@
 plot_missing <- function(data, seg = 10, col = NULL) {
   
   library(ggplot2)
-  library(reshape)
+  library(reshape2)
   
   columns <- colnames(data)
   ncols <- length(columns)
